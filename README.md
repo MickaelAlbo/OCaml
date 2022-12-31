@@ -41,4 +41,4 @@ Let define a new type ``binary_tree`` that carries an arbitrary value of type ``
   | Node of 'a * 'a binary_tree * 'a binary_tree;;
 type 'a binary_tree = Empty | Node of 'a * 'a binary_tree * 'a binary_tree
 ```
-Now we want to add an element to the binary tree, the inut will be an element and a binary tree. The return value will the binary tree updated with the input element.
+Now we want to add an element to the binary tree, the input will be an element and a binary tree. The return value will the binary tree updated with the input element.
